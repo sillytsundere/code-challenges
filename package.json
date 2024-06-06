@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "A repo dedicated to practicing and documenting coding challenges to improve my problem solving skills and coding ability.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test --coverage"
+    "test": "jest --coverage"
   },
   "author": "Paige",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0"
+  }
 }
