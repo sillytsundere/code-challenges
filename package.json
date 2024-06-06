@@ -1,0 +1,11 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "A repo dedicated to practicing and documenting coding challenges to improve my problem solving skills and coding ability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test --coverage"
+  },
+  "author": "Paige",
+  "license": "ISC"
+}
