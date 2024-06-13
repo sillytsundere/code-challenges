@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718069977230" clover="3.2.0">
-  <project timestamp="1718069977230" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="24" coveredelements="24" complexity="0" loc="17" ncloc="17" packages="2" files="2" classes="2"/>
+<coverage generated="1718239790711" clover="3.2.0">
+  <project timestamp="1718239790711" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="38" coveredelements="38" complexity="0" loc="26" ncloc="26" packages="3" files="3" classes="3"/>
     <package name="convert-string-to-array">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="convert-string-to-array.js" path="/Users/paigehamilton/Documents/bootcamp/code-challenges/convert-string-to-array/convert-string-to-array.js">
@@ -18,6 +18,21 @@
         <line num="16" count="95" type="stmt"/>
         <line num="18" count="5" type="stmt"/>
         <line num="19" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="sum-of-numbers">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="sum-of-numbers.js" path="/Users/paigehamilton/Documents/bootcamp/code-challenges/sum-of-numbers/sum-of-numbers.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="23" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
       </file>
     </package>
     <package name="vowel-count">
