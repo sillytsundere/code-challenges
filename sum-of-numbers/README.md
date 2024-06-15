@@ -24,3 +24,7 @@ Your function should only return a number, not the explanation about how you get
 [Link to CodeWars Kata](https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript)
 
 ## My Comments
+
+Since the parameters for this function can be any integer, I knew that (after returning the number, if they are the same number) I needed to discern if a was smaller or larger than b. I wanted to use a for loop to iterate through the integers and all integers between them and thus needed to begin the for loop with the smaller number.
+
+A variable, sum, is declared and its initial value is set to zero. The for loop begins with the smaller integer, adds it to the sum, and moves through each integer, adding it to the sum, finishing with loop with the larger integer. After the for loop closes the sum is returned.
